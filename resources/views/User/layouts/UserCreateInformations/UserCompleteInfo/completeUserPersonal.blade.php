@@ -1,3 +1,187 @@
+
+<style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+     display: none; 
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+input:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+input:focus:required:invalid {border: 2px solid red;}
+span.message {
+    padding: 7px;
+    font-size: 17px;
+    display: none;
+    margin-left: 15px;
+}
+input:valid + .message {
+    background-image: url(https://www.amazingsouq.com/edititems/image/check.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    display: unset;
+    margin-left: 1%;
+    padding: 11px;
+}
+
+
+
+input:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+input:valid + span div { display: none; }
+input:invalid + span div { display: block; }
+
+
+
+
+select:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+select:focus:required:invalid {border: 2px solid red;}
+span.message {
+    padding: 7px;
+    font-size: 17px;
+    display: none;
+    margin-left: 15px;
+}
+select:valid + .message {
+    background-image: url(https://www.amazingsouq.com/edititems/image/check.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    display: unset;
+    margin-left: 1%;
+    padding: 11px;
+}
+
+
+select:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+select:valid + span div { display: none; }
+select:invalid + span div { display: block; }
+
+input.textdatedd {
+    position: absolute;
+    height: 34px;
+    z-index: 1;
+}
+input.textdateddpass {
+    position: relative;
+    height: 30px;
+    z-index: 5;
+    border-radius: 7px;
+    border: transparent;
+    padding: 7px;
+    left: -13px;
+    width: 100px;
+    top: -15px;
+}
+input#stratcreat {
+    height: 37px;
+    position: relative;
+    top: -50px;
+    left: -13px;
+    border-radius: 13px;
+}
+.textdateddpass2 {
+    position: relative;
+    z-index: 7;
+    height: 27px;
+    left: -14px;
+    width: 102px;
+    padding: 5px;
+    border: transparent;
+    top: -14px;
+    border-radius: 13px;
+}
+input#startdatanoe {
+    position: relative;
+    top: -45px;
+    height: 35px;
+    left: -13px;
+    border-radius: 11px;
+}
+
+input[type="date"] {
+  display:block;
+  position:relative;
+  padding:1rem 3.5rem 1rem 0.75rem;
+  
+  font-size:1rem;
+  font-family:monospace;
+  
+  border:1px solid #8292a2;
+  border-radius:0.25rem;
+  background:
+    white
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='22' viewBox='0 0 20 22'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23688EBB' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' transform='translate(1 1)'%3E%3Crect width='18' height='18' y='2' rx='2'/%3E%3Cpath d='M13 0L13 4M5 0L5 4M0 8L18 8'/%3E%3C/g%3E%3C/svg%3E")
+    right 1rem
+    center
+    no-repeat;
+  
+  cursor:pointer;
+}
+input[type="date"]:focus {
+  outline:none;
+  border-color:#3acfff;
+  box-shadow:0 0 0 0.25rem rgba(0, 120, 250, 0.1);
+}
+
+::-webkit-datetime-edit {}
+::-webkit-datetime-edit-fields-wrapper {}
+::-webkit-datetime-edit-month-field:hover,
+::-webkit-datetime-edit-day-field:hover,
+::-webkit-datetime-edit-year-field:hover {
+  background:rgba(0, 120, 250, 0.1);
+}
+::-webkit-datetime-edit-text {
+  opacity:0;
+}
+::-webkit-clear-button,
+::-webkit-inner-spin-button {
+  display:none;
+}
+::-webkit-calendar-picker-indicator {
+  position:absolute;
+  width:2.5rem;
+  height:100%;
+  top:0;
+  right:0;
+  bottom:0;
+  
+  opacity:0;
+  cursor:pointer;
+  
+  color:rgba(0, 120, 250, 1);
+  background:rgba(0, 120, 250, 1);
+ 
+}
+
+input[type="date"]:hover::-webkit-calendar-picker-indicator { opacity:0.05; }
+input[type="date"]:hover::-webkit-calendar-picker-indicator:hover { opacity:0.15; }
+
+.holderdatem {
+    height: 0;
+}
+input#stratcreatarmyy {
+    height: 37px;
+    position: relative;
+    top: -39px;;
+    border-radius: 13px;
+    width: 200px;
+}
+input#textboxarmy {
+    position: relative;
+    z-index: 7;
+    height: 25px;
+    left: -13px;
+    width: 135px;
+    padding: 5px;
+    border: transparent;
+    top: -7px;
+    border-radius: 13px;
+}
+</style>
 @if(count($errors))
     @foreach($errors->all() as $error)
        
@@ -77,12 +261,24 @@
                 <td class="outtd">
                     <input class="inputtext" type="number" placeholder="الرقم القومي" name="personalCardNumber"  value="{{old('personalCardNumber')}}" id="NID" value=""  onkeydown="limit(this);" onkeyup="limit(this);" required oninvalid="this.setCustomValidity('برجاء ملء هذا الحقل')" oninput="setCustomValidity('')"><span class="message"><div id="arrow"></div></span><div id="textareaname"></div>
                 </td>
-                <td class="outtd">
-                    <input type="date"  id="startdatanoe"  onchange="calsss()" class="inputtext" name="cardReleaseDate" placeholder="تاريخ الاصدار" value="{{old('cardReleaseDate')}}" required oninvalid="this.setCustomValidity('برجاء ملء هذا الحقل')" oninput="setCustomValidity('')"><span class="message"><div id="arrow"></div></span>
+				
+				<td class="outtd">
+					<div class="holderdatem">
+						<input id="textbox1" class="textdateddpass2"  type="text" value="dd-mm-yyyy" readonly></input>
+						<input class="inputtext" type="date" name="cardReleaseDate" id="startdatanoe" onchange="calsss()" value="{{old('cardReleaseDate')}}"required oninvalid="this.setCustomValidity('برجاء ملء هذا الحقل')" oninput="setCustomValidity('')">
+					</div>
                 </td>
-                <td class="outtd">
-                    <input type="date" id="stratcreat"  onchange="cal()"id="endcreat"  onchange="cal()" class="inputtext" name="cardExpireDate" placeholder="تاريخ الانتهاء" value="{{old('cardExpireDate')}}" required oninvalid="this.setCustomValidity('برجاء ملء هذا الحقل')" oninput="setCustomValidity('')"><span class="message"><div id="arrow"></div></span>
-                </td>
+
+
+
+
+				<td class="outtd">
+					<div class="holderdatem">
+						<input id="textbox" class="textdateddpass"  type="text" value="dd-mm-yyyy" readonly></input>
+						<input class="inputtext" name="cardExpireDate" id="stratcreat"  type="date" name="bday" style="" onchange="cal()" value="{{old('cardExpireDate')}}" required oninvalid="this.setCustomValidity('برجاء ملء هذا الحقل')" oninput="setCustomValidity('')">
+					</div>
+				</td>
+
                 <td  style="display:none"><input value="0"  class="inputtext" id="numdayscard" readonly> يوم</td>
 
                 <td class="outtd">
@@ -165,7 +361,13 @@
                     </select><span class="message"><div id="arrow"></div></span>
                 </td>
                 <td class="outtd" id="armyDate">
-                    <input id="stratcreatarmyy" onchange="armyy()" type="date" class="inputtext" name="armyDate" placeholder="تاريخ الشهادة" value="{{old('armyDate')}}"  oninvalid="this.setCustomValidity('برجاء ملء هذا الحقل')" oninput="setCustomValidity('')">
+					<div class="holderdatem">
+					<center>
+				   	<input id="textboxarmy" class="textdateddpassarmy" type="text" value="dd-mm-yyyy" readonly="">
+						<input id="stratcreatarmyy" onchange="armyy()" type="date" class="inputtext" name="armyDate" placeholder="تاريخ الشهادة" value="{{old('armyDate')}}"  oninvalid="this.setCustomValidity('برجاء ملء هذا الحقل')" oninput="setCustomValidity('')">
+						</center>
+					</div>
+					
                 </td>
             </tr>
         </tbody>
@@ -518,5 +720,91 @@ $('.inputtext.ar').keyup(function() {
 
 
 
+
+<script type="text/javascript">
+  $(document).ready(function(){
+  var d = new Date();      
+        
+   function twoDigitDate(d){
+      return ((d.getDate()).toString().length == 1) ? "0"+(d.getDate()).toString() : (d.getDate()).toString();
+    };
+        
+    function twoDigitMonth(d){
+     	return ((d.getMonth()+1).toString().length == 1) ? "0"+(d.getMonth()+1).toString() : (d.getMonth()+1).toString();
+    };    
+      
+    var today_ISO_date = d.getFullYear()+"-"+twoDigitMonth(d)+"-"+twoDigitDate(d); 
+        
+
+       
+     var dd_mm_yyyy;
+     $("#stratcreat").change( function(){
+       	changedDate = $(this).val(); 
+        var date = new Date(changedDate);
+        dd_mm_yyyy = twoDigitDate(date)+"-"+twoDigitMonth(date)+"-"+date.getFullYear(); 
+        $('#textbox').val(dd_mm_yyyy);
+
+        });
+        
+    });
+
+
+
+
+
+  $(document).ready(function(){
+  var d = new Date();      
+        
+   function twoDigitDate(d){
+      return ((d.getDate()).toString().length == 1) ? "0"+(d.getDate()).toString() : (d.getDate()).toString();
+    };
+        
+    function twoDigitMonth(d){
+     	return ((d.getMonth()+1).toString().length == 1) ? "0"+(d.getMonth()+1).toString() : (d.getMonth()+1).toString();
+    };    
+      
+    var today_ISO_date = d.getFullYear()+"-"+twoDigitMonth(d)+"-"+twoDigitDate(d); 
+        
+
+       
+     var dd_mm_yyyy;
+     $("#startdatanoe").change( function(){
+       	changedDate = $(this).val(); 
+        var date = new Date(changedDate);
+        dd_mm_yyyy = twoDigitDate(date)+"-"+twoDigitMonth(date)+"-"+date.getFullYear(); 
+        $('#textbox1').val(dd_mm_yyyy);
+
+        });
+        
+    });
+	
+	
+	
+	  $(document).ready(function(){
+  var d = new Date();      
+        
+   function twoDigitDate(d){
+      return ((d.getDate()).toString().length == 1) ? "0"+(d.getDate()).toString() : (d.getDate()).toString();
+    };
+        
+    function twoDigitMonth(d){
+     	return ((d.getMonth()+1).toString().length == 1) ? "0"+(d.getMonth()+1).toString() : (d.getMonth()+1).toString();
+    };    
+      
+    var today_ISO_date = d.getFullYear()+"-"+twoDigitMonth(d)+"-"+twoDigitDate(d); 
+        
+
+       
+     var dd_mm_yyyy;
+     $("#stratcreatarmyy").change( function(){
+       	changedDate = $(this).val(); 
+        var date = new Date(changedDate);
+        dd_mm_yyyy = twoDigitDate(date)+"-"+twoDigitMonth(date)+"-"+date.getFullYear(); 
+        $('#textboxarmy').val(dd_mm_yyyy);
+
+        });
+        
+    });
+</script>
 
 
