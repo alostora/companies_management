@@ -1,0 +1,78 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+     display: none; 
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+input:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+input:focus:required:invalid {border: 2px solid red;}
+span.message {
+    padding: 7px;
+    font-size: 17px;
+    display: none;
+    margin-left: 15px;
+}
+input:valid + .message {
+    background-image: url(https://www.amazingsouq.com/edititems/image/check.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    display: unset;
+    margin-left: 1%;
+    padding: 11px;
+}
+
+
+
+input:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+input:valid + span div { display: none; }
+input:invalid + span div { display: block; }
+
+
+
+
+select:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+select:focus:required:invalid {border: 2px solid red;}
+span.message {
+    padding: 7px;
+    font-size: 17px;
+    display: none;
+    margin-left: 15px;
+}
+select:valid + .message {
+    background-image: url(https://www.amazingsouq.com/edititems/image/check.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    display: unset;
+    margin-left: 1%;
+    padding: 11px;
+}
+
+
+select:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+select:valid + span div { display: none; }
+select:invalid + span div { display: block; }
+
+
+
+img#blah {
+            width: 100%;
+}
+
+.holderimg {
+    width: 222px;
+    padding: 23px;
+    border-radius: 37px;
+}
+
+img#blah {
+    width: 100%;
+    border-radius: 3px;
+}
+    

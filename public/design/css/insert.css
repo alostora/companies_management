@@ -1,0 +1,253 @@
+#tableinsert {
+  border-collapse: collapse;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+#tableinsert td, #tableinsert th {
+  border: 1px solid #ddd;
+  padding: 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+input.inputtext.locatiopn {
+    width: 89%;
+}
+select.personal.selct {
+    width: 78%;
+    padding: 7px;
+    border-radius: 7px;
+}
+select.selectoptionm {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 7px;
+    width:70%;
+}
+td.tdtext.insert {
+    width: 50%;
+    box-shadow: inset 0 0 1px 0px black;
+}
+.titltinert {
+    background: aliceblue;
+    padding: 7px;
+    font-size: 20px;
+}
+.infopage {
+    position: relative;
+    margin-top: 20px;
+    font-size: 20px;
+    background: #88bce1;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    color:#fff;
+}
+input.insert-1 {
+    background: green;
+    color: #fff;
+    padding: 11px;
+    font-size: 13px;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 7px;
+}
+select.selectcond {
+    border-radius: 5px;
+    padding: 5px;
+}
+td.tdtext.insert.no {
+    background: red;
+    border-radius: 7px;
+}
+a.urlinbsert {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.textcond {
+    padding: 30px;
+}
+input.inputtext {
+    padding: 7px;
+    border-radius: 7px;
+    border: transparent;
+    box-shadow: 0 0 1px 0px black;
+    font-size: 15px;
+    text-align: center;
+    width: 79%;
+    outline: none;
+}
+.titlrtexthed {
+    background: #88bce1;
+    text-align: right;
+    padding: 14px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#tableinsert tr:nth-child(even){background-color: #f2f2f2;}
+
+#tableinsert .intd:hover {background: #88bce1;color:#fff;}
+
+#tableinsert th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+ .textnavbarpc.f {
+            background: green;
+            border-radius: 8px;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+             display: none; 
+            -webkit-appearance: none;
+            margin: 0; 
+        }
+
+        input[type=number] {
+            -moz-appearance:textfield;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+             display: none; 
+            -webkit-appearance: none;
+            margin: 0; 
+        }
+
+        input[type=number] {
+            -moz-appearance:textfield;
+        }
+
+        input:focus:required:invalid {border: 2px solid red;}
+        input:required:valid { border: 2px solid black; }
+
+
+
+
+
+
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+         display: none; 
+        -webkit-appearance: none;
+        margin: 0; 
+    }
+
+    input[type=number] {
+        -moz-appearance:textfield;
+    }
+    input:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+    input:focus:required:invalid {border: 2px solid red;}
+    span.message {
+        padding: 7px;
+        font-size: 17px;
+        display: none;
+        margin-left: 15px;
+    }
+    input:valid + .message {
+        background-image: url(https://www.amazingsouq.com/edititems/image/check.png);
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: 98% center;
+        display: unset;
+        margin-left: 1%;
+        padding: 11px;
+    }
+    input:focus:valid + .message::after { background-color: rgb(255, 255, 255); }
+    input:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+    input:valid + span div { display: none; }
+    input:invalid + span div { display: block; }
+
+
+
+
+    
+
+select:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+select:focus:required:invalid {border: 2px solid red;}
+span.message {
+    padding: 7px;
+    font-size: 17px;
+    display: none;
+    margin-left: 15px;
+}
+select:valid + .message {
+    background-image: url(https://www.amazingsouq.com/edititems/image/check.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    display: unset;
+    margin-left: 1%;
+    padding: 11px;
+}
+select:focus:valid + .message::after { background-color: rgb(255, 255, 255); }
+select:focus:valid { box-shadow: rgb(92, 208, 83) 0px 0px 3px 1px; border-color: rgb(40, 146, 31); }
+select:valid + span div { display: none; }
+select:invalid + span div { display: block; }
+
+
+
+input.insert-1:hover {
+    background: #055f05;
+}
+td.tdtext.insert.no:hover {
+    background: #b20101;
+    border-radius: 7px;
+}
+
+
+
+
+td.remove {
+    color: red;
+}
+td.remove {
+   
+    border-radius: 28px;
+    height: 2px;
+    color: red;
+}
+span.addbuttton {
+    color: #fff;
+    font-size: 20px;
+    background: green;
+    border-radius: 7px;
+    padding: 3px;
+}
+i.fa.fa-trash {
+    font-size: 25px;
+}
+
+
+
+
+
+span.closetrcompany.remove {
+    background: red;
+    color: #fff;
+    padding: 9px;
+    border-radius: 5px;
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+}
+.line.text {
+    background: #88bce1;
+    width: 100%;
+    height: 50px;
+}

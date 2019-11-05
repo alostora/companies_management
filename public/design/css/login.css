@@ -1,0 +1,150 @@
+input.logintext {
+    color: #fff;
+    background: #51a1f3;
+    padding: 9px;
+    width: 100%;
+    border: transparent;
+    border-radius: 033px;
+    outline: transparent;
+    text-align: right;
+    padding-right: 15px;
+}
+i.fa.fa-envelope {
+    color: #fff;
+}
+div#alldiv {
+    width: 35%;
+    background: #f0f8ff38;
+    height: 100%;
+}
+input.sendlogin.regi {
+    background: green;
+    border: transparent;
+    color: #fff;
+    padding-left: 35px;
+    font-size: 20px;
+    border-radius: 11px;
+    padding-right: 35px;
+}
+.alreadyuser {
+    padding-bottom: 33px;
+}
+.errormessage {
+    background: aliceblue;
+    width: max-content;
+    padding: 8px;
+    border-radius: 11px;
+    background: red;
+    color: #fff;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+}
+.sucssesmessage {
+    width: 89%;
+    background: green;
+    padding: 11px;
+    border-radius: 11px;
+    color: #fff;
+    margin-bottom: 28px;
+    margin-top: -50px;
+}
+i.fa.fa-lock {
+    color: #fff;
+}
+img.logoimg {
+    width: 50%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("../img/background.png");
+    background-color: #cccccc;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+.input-holder {
+    position: relative;
+    left: 0px;
+    width: 70%;
+    background: #51a1f3;
+    padding-right: 15px;
+    border-radius: 13px;
+}
+::placeholder{
+color:#fff;	
+}
+:-ms-input-placeholder{
+color:#fff;	
+}
+::-ms-input-placeholder{
+color:#fff;	
+}
+i.fa.fa-user.icon {
+    color: #fff;
+}
+a.resetpass {
+    color: #fff;
+}
+menu {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+button.sendlogin {
+    background: green;
+    border: transparent;
+    border-radius: 7px;
+    width: 95px;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+    padding: 4px;
+    box-shadow: transparent;
+}
+.newuserdiv {
+    position: relative;
+    bottom: 0;
+    background: #05056a;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 59px;
+    margin-top: 146px;
+    top: 23px;
+}
+a.url {
+    color: #ffffff;
+    position: relative;
+    top: 25px;
+    padding: 5px;
+    border-radius: 11px 0px 0px 11px;
+    /* box-shadow: 2px 1px 0px 3px #008000; */
+    padding-bottom: 55px;
+}
+a {
+    text-decoration-line: none;
+}
+@media only screen and (max-width: 900px){
+div#alldiv {
+    width: 100%;
+    background: transparent;
+    height: 100%;
+}
+img.logoimg {width: 59%;}
+
+}
+
+
+
+@media screen and (orientation:landscape) and (min-device-width: 300px)  and (max-device-width: 900px){
+body {
+    position: relative;
+    height: 100%;
+}
+a.url {
+    padding-bottom: 55px;
+}
+}

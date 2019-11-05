@@ -1,0 +1,47 @@
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css */
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-angle-left:before{content:"\f104";}
+.fa-chevron-circle-up:before{content:"\f139";}
+.fa-chevron-circle-down:before{content:"\f13a";}
+/*! CSS Used from: file:///E:/job%20site/css/index.css */
+body{margin:0;}
+img.imguserrev {
+    width: 100%;
+}
+a.vadd {
+    background: green;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+}
+.addvacationurl {
+    height: 100%;
+    padding-bottom: 30px;
+    direction: ltr;
+    width: 100%;
+}
+div#servicepage {
+    display: none;
+}
+td.tdright {
+    width: 325px;
+}
+td.tdleft {
+    box-shadow: 0px 0px 1px 1px #c8c7c7;
+}
+footer{position:relative;bottom:0;width:100%;height:200px;background:#fff;}
+div#leftdropdown-one{width:300px;background:aliceblue;position:relative;right: 11px;}
+button.texttd{margin:11px;color:#fff;background:rgb(151, 151, 151);border:transparent;font-size:20px;border-radius:5px;width:300px;text-align:right;}
+.holderrightpc{background:#ffffff;height: max-content;width:231px;border-radius:3px;/* display:table-cell; *//* position: relative; *//* top: 11px; */}
+menu{direction:rtl;direction:rtl;padding:11px;min-height:33vw;}
+.holderrightpc.left{width:84%;border:transparent;padding: 15px;}
+ul.ultext{margin:0;}
+button{outline:none;}
+i.fa.fa-chevron-circle-down{float:left;}
+i.fa.fa-chevron-circle-UP{float:left;color:#fff;position:relative;top:-34px;left:8px;z-index:2;background:#4192d7;width:21px;height:20px;font-size:20px;}
+i.fa.fa-angle-left{float:left;}
+button.texttd.leftclick-one{/* background:#4192d7; */}
+.infopage{position:relative;margin-top:20px;font-size:20px;background:#88bce1;text-align:center;padding:5px;border-radius:3px;}
+
+/*! CSS Used fontfaces */
+@font-face{font-family:'FontAwesome';src:url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');src:url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot#iefix&v=4.7.0') format('embedded-opentype'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}

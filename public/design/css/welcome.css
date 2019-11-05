@@ -1,0 +1,56 @@
+/*! CSS Used from: file:///C:/last%20site/site%2027-10-2019/site/css/login.css */
+div#alldiv{/* width:35%; *//* background:#f0f8ff38; *//* height:100%; */}
+img.logoimg{width: 17%;}
+body{margin:0;padding:0;width:100%;background-image:url("../img/background.png");background-color:#cccccc;background-size:cover;position:relative;height:100%;}
+::placeholder{color:#fff;}
+:-ms-input-placeholder{color:#fff;}
+::-ms-input-placeholder{color:#fff;}
+.textnavbarpc.f {
+    background: green;
+    border-radius: 8px;
+}
+.daertext {
+    font-size: 25px;
+}
+.bordertext {
+    box-shadow: inset 0 0 3px black;
+    padding-bottom: 39px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 3px;
+}
+div#holdersite {
+    font-size: 25px;
+    height: max-content;
+    width: 70%;
+    background: aliceblue;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: inset 0 0 3px black;
+}
+.textfristar {
+    background: #319fff;
+    color: #fff;
+}
+.textfristar:hover {
+    background: #4192d7;
+    color: #fff;
+}
+.textfristpage {
+    text-align: justify;
+    font-size: 18px;
+    text-align: right;
+    line-height: 35px;
+    padding: 15px;
+}
+
+body {
+    min-width: 1000px;
+}
+menu{margin:0;padding:0;height:100%;}
+
+
+/*! CSS Used from: Embedded */
+div#holdersite{font-size:25px;height: max-content;width: 70%;background:aliceblue;border-radius:0px 0px 15px 15px;box-shadow:inset 0 0 3px black;}
+.textfristar{background:#319fff;color:#fff;}
+.textfristar:hover{background:#4192d7;color:#fff;}
+.textfristpage{text-align:justify;font-size:15px;text-align:center;}

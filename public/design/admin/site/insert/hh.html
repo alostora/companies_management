@@ -1,0 +1,508 @@
+
+<!DOCTYPE html>
+<html  dir="rtl"  lang="ar_SA">
+<head>
+
+<script src="http://41.33.3.110/hrwebsite/resources/assets/admin/hala_admin/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+
+
+</head>
+<body class="skin-josh">
+    <div class="wrapper">
+                        	<section class="content">
+		<div class="panel panel-primary">
+			<div class="panel-body">
+				<table style="width: 100%;">
+					<thead>
+                        <tr>
+                            <th class="" colspan="2">
+                                <span class="backgroundHeader"><img src="http://41.33.3.110/hrwebsite/resources/assets/admin/hala_admin/img/descision/head.png" style=""></span>
+                                <span class="col-lg-4 userName">مسجل الدخول بإسم : hosamZaki</span>
+                                <span class="col-lg-4 userName">البريد الإلكتروني : dolsika5762@gmail.com</span>
+                                <span class="col-lg-4 userName"><a href="http://41.33.3.110/hrwebsite/portal/getSignOut">[ تسجيل الخروج ] </a></span>
+                            </th>
+                        </tr>
+						<tr>
+							<th class="text-left" style="vertical-align:  top;">
+								<img src="http://41.33.3.110/hrwebsite/resources/assets/admin/hala_admin/img/newdesign/exp.png" width="230" height="100" style="margin-right: 10%;">
+							</th>
+							<th class="text-right" style="vertical-align:  middle;">
+								<img src="http://41.33.3.110/hrwebsite/resources/assets/admin/hala_admin/img/descision/text.png" width="320" style="float: left;margin-left: 6%;">
+							</th>                                
+						</tr>
+					</thead>
+				</table>
+				<form id="systemFRM" method="POST" class="form-horizontal">
+					<div class="col-lg-12" style="border: 0.2px #418bca double;border-radius: 8px;">
+						<div class="alert alert-info text-center" style="padding: 11px;font-size: 16px;">
+							جميع الحقول المتبوعة بعلامة  (<span class="requiredHint" style="vertical-align: bottom;">*</span>) هي حقول ضرورية الإدخال
+							<span class="pull-right clickable">
+								<a href="http://41.33.3.110/hrwebsite/cvJobData" style="height:28px; padding-top:4px;" class="btn btn-success">عوده</a>
+							</span>
+						</div>
+						<ul class="breadcrumb	" style="padding: 11px;font-size: 16px;">
+							<li class="active visited"><a href="http://41.33.3.110/hrwebsite/cvJobData">بيانات الوظيفة المتقدم عليها</a></li>
+							<li>البيانات الشخصية</li>
+							<li class="active">بيانات التواصل</li>
+							<li class="active">المؤهل الدراسي والدورات واللغات</li>
+							<li class="active">الخبرات العملية</li>
+							<li class="active">الحالة الإجتماعية</li>	
+							<li class="active">أسئلة السمات الشخصية</li>
+						</ul>
+						<h4 class="alert alert-info" style="color:black;">
+							<div class="col-lg-8" style="line-height: 2.5;"> البيانات الشخصية للمتقدم </div>
+							<div class="col-lg-4">
+							</div>
+							<div style="clear:both;"></div>
+						</h4>
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								الإسم الأول <span class="requiredHint">*</span>
+							</p>
+							
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<input type="text" name="FirstName" 
+								 value="يباليبال"  id="FirstName" class="form-control">
+							</p>
+						</div>
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								إسم الأب <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<input type="text" name="FatherName" id="FatherName"  value="يباليبال"   class="form-control">
+							</p>
+						</div>
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								إسم الجد <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<input type="text" name="GrandFatherName"  value="يباليبال"  id="GrandFatherName" class="form-control">
+							</p>
+						</div>
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								العائلة <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<input type="text" name="LastName"  value="يباليبال"  id="LastName" class="form-control">
+							</p>
+						</div>
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								الرقم القومي <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<input type="text" name="NID"  value="28808281201215"  id="NID" class="form-control" maxlength="14">
+							</p>
+						</div>
+
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								الجنسية <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<select name="nationality" id="nationality" class="form-control"  value="194" >
+									<option value="">اختر</option>
+																			<option value="193" >سعودي</option>
+																			<option value="194"  selected="selected" >مصري</option>
+																			<option value="195" >أردني</option>
+																			<option value="196" >سوداني</option>
+																			<option value="197" >يمني</option>
+																			<option value="198" >فلسطيني</option>
+																			<option value="199" >سوري</option>
+																			<option value="200" >لبناني</option>
+																			<option value="201" >أثيوبي</option>
+																			<option value="202" >بنقلاديشي</option>
+																			<option value="203" >هندي</option>
+																			<option value="204" >باكستاني</option>
+																			<option value="205" >قبائل نازحة</option>
+									                                
+								</select>
+
+							</p>
+						</div>
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								تاريخ الإنتهاء <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<input type="text" name="NidEndDate"  value="2019-09-16"  id="NidEndDate" class="form-control date">
+							</p>
+						</div>  						               	                	                
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								الجنس <span class="requiredHint">*</span>
+							</p>
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<select name="gender" id="gender" class="form-control"  disabled>
+									<option value="Male">ذكر</option>
+									<option value="Female">أنثي</option>
+								</select>
+								<select name="gender_allowed" id="gender_allowed"  value="Male"  class="form-control" style="display: none;">
+									<option value="Male"  selected="selected" >ذكر</option>
+									<option value="Female" >أنثي</option>
+								</select>								
+							</p>
+						</div>
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								تاريخ الميلاد <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<input type="text" name="BirthDate"  value="1988-08-28"  id="BirthDate" class="form-control" readonly="">
+							</p>
+						</div>
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								مكان الميلاد <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<input type="text" name="BirthLocation"  value="يباليبال"  id="BirthLocation" class="form-control">
+							</p>
+						</div>
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								الديانة <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<select name="religion" id="religion" class="form-control">
+									<option value="Mus"  selected="selected" >مسلم</option>
+									<option value="Chrs" >مسيحي</option>
+								</select>
+							</p>
+						</div>
+
+
+					 	<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								الحالة الاجتماعية <span class="requiredHint">*</span>
+							</p>
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<select name="SocailStatus" id="SocailStatus" class="form-control"  value="136" >
+									<option value="">اختر</option>
+																			<option value="136"  selected="selected" >اعزب</option>
+																			<option value="137" >متزوج</option>
+																			<option value="139" >مطلق</option>
+																			<option value="140" >ارمل</option>
+									                                
+								</select>
+							</p>
+						</div>
+
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								ارفاق صورة شخصية</span>
+								<span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+									
+																			<input class="form-control" value="data:image/jpg;base64,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" disabled >
+																		<input name="photo" type="file" id="photo" class="form-control">
+								
+							</p>
+						</div>  
+						 <div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								الموقف من التجنيد <span class="requiredHint">*</span>
+							</p>
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<select name="military_service" id="military_service" class="form-control">
+									<option value="">اختر</option>
+																			<option value="133" >مؤجل</option>
+																			<option value="134"  selected="selected" >معفى</option>
+																			<option value="174" >ادى الخدمة العسكرية</option>
+																			<option value="175" >غير لائق طبيا</option>
+																	</select>
+							</p>
+						</div>
+						 <div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								تاريخ الموقف من التجنيد <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<input type="text" name="military_service_date"  value="2019-09-25"  id="military_service_date" class="form-control date">
+							</p>
+						</div>
+
+						 <div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								ارفق شهادة التجنيد أو ما يثبت موقفك من التجنيد <span class="requiredHint">*</span>
+							</p>
+
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+																			<input class="form-control" value="data:image/jpg;base64,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" disabled >
+																	<input name="military_img" type="file" class="form-control military_img" id="military_img">
+								
+							</p>
+						</div>
+						<div class="col-lg-6">
+							<p class="col-lg-4" style="line-height: 3;text-align:center;background-color: #DBE5F1;border-left: 0px !important;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ; font-size: 11px;font-weight: bolder;">
+								ارفق صورة البطاقة الشخصية
+							</p>
+	
+							<p class="col-lg-8" style="line-height: 3;text-align:center;padding:6px;min-height:40px;border: 1px black double;  padding: 1px ;font-weight: bolder; font-size: 11px;">
+								<input name="personalcard_img" type="file" class="form-control military_img" id="military_img">
+							</p>
+						</div>
+					</div>
+
+					               
+					
+					<div class="col-lg-12 text-center">
+						<button type="submit" class="btn btn-primary btn-xs">حفظ ومتابعة</button>
+						<button type="reset" class="btn btn-default btn-xs">تفريغ المحتوي</button>
+					</div>
+					<input type="hidden" name="_token" value="hhONfkkhgh8XbijjJQeIjmp9GfzqSnXDU96UOpFJ">
+				</div>
+			</form>
+			<footer>
+				جميع الحقوق محفوظة لدي شركة خبرة للإتصالات وتقنية المعلومات &copy; 2019
+			</footer>
+		</div>
+	</section>
+   
+    </div>
+        
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" >
+        <i class="livicon" data-name="plane-up" data-size="18" data-loop="true" data-c="#fff" data-hc="white"></i>
+    </a>
+    	<!-- global js -->
+
+
+	
+	<script src="http://41.33.3.110/hrwebsite/resources/assets/website/hala_start/js/datepicker.js" type="text/javascript" ></script>
+	
+	
+
+	
+
+    <script type="text/javascript">
+        $(function(){
+    window.history.pushState(null, "", window.location.href);        
+    window.onpopstate = function() {
+        window.history.pushState(null, "", window.location.href);
+    };
+
+
+
+    $('.date').datepicker({
+        rtl:true,
+        format: 'yyyy-mm-dd',
+        clearBtn : true,
+        todayBtn : true,
+        todayHighlight : true,
+    });
+
+
+        
+
+    $("#NID").on("keyup",function(){
+        if ($(this).val() != ""){
+            var birth_date_year = $(this).val().substring(1,3);
+            var birth_date_month = $(this).val().substring(3,5);
+            var birth_date_day = $(this).val().substring(5,7);
+            var birthDateCen = 19;
+            var getGovernorateName = getGovernorateNameById($(this).val().substring(7,9));
+            var gender = $(this).val().substring(12,13);
+            if (gender  % 2 == 0){
+                $("#gender").val("Female");
+                $("select[name=gender_allowed] option[value=Female]").prop("selected",true);
+                $("#military_service").parents("div.col-lg-6").hide();
+                $("#military_service_date").parents("div.col-lg-6").hide();
+                $("#military_img").parents("div.col-lg-6").hide();
+
+            }else{
+                $("#gender").val("Male");
+                $("select[name=gender_allowed] option[value=Male]").prop("selected",true);
+                $("#military_service").parents("div.col-lg-6").show();
+                $("#military_service_date").parents("div.col-lg-6").show();
+                $("#military_img").parents("div.col-lg-6").show();
+            }
+            if ($(this).val().substring(0,0) === 3){
+                birthDateCen = 20;
+            }
+            $("#governorate").val(getGovernorateName);
+            $("#BirthDate").val(birthDateCen.toString() + birth_date_year.toString()+ "-" + birth_date_month.toString()+ "-" + birth_date_day.toString());
+        }else{
+            $("#BirthDate").val("");
+            $("#governorate").val("");
+            $("#gender").val("");
+            $("#gender_allowed").val("");
+
+        }
+    });
+
+    $("#systemFRM").on("submit",function(){
+        if ((Date.parse($("input[name=oldPeriodTo_2]").val()) > Date.parse($("input[name=oldPeriodTo_1]").val())) || (Date.parse($("input[name=oldPeriodTo_3]").val()) > Date.parse($("input[name=oldPeriodTo_1]").val())) || (Date.parse($("input[name=oldPeriodTo_3]").val()) > Date.parse($("input[name=oldPeriodTo_2]").val())) || (Date.parse($("input[name=oldPeriodTo_3]").val()) > Date.parse($("input[name=oldPeriodTo_1]").val()))){
+            noty({
+                text     : '<div>يجب ان يتم ترتيب الخبرات العملية السابقة حسب مدة الإنتهاء ترتيباً تنازلياً</div>',
+                layout   : 'topCenter',
+                type : 'error',
+                timeout : 3500,
+                closeWith: ['click']
+            });
+            return false;
+        }
+        $.blockUI({ message: "جاري الاتصال بالخادم والتحقق من بعض الإجراءات فضلاً لا تقم بالضغط علي اي زر قبل انتهاء هذة العملية" }); 
+        $.ajax({
+            type : 'POST',
+            url : 'http://41.33.3.110/hrwebsite/personalDataPOST',
+            dataType : 'json',
+            data: new FormData($("#systemFRM")[0]),
+            contentType : false,
+            processData : false,
+            beforeSend : function(){
+                // $.blockUI({ message: "جاري الاتصال بالخادم والتحقق من بعض الإجراءات فضلاً لا تقم بالضغط علي اي زر قبل انتهاء هذة العملية" }); 
+            },
+            success : function(data){
+
+                noty({
+                    text     : '<div>تم حفظ البيانات بنجاح</div>',
+                    layout   : 'topCenter',
+                    type : 'success',
+                    timeout : 1500,
+                    closeWith: ['click']
+                });
+                window.setTimeout(function(){
+                    window.location.href="http://41.33.3.110/hrwebsite/contact_data";
+                },500);
+            },error : function(error){
+
+                if (error.status == "422"){
+                    noty({
+                        text     : '<div>فضلاً قم بمراجعة البيانات بشكل كامل</div>',
+                        layout   : 'topCenter',
+                        type : 'error',
+                        timeout : 1500,
+                        closeWith: ['click']
+                    });
+                    $('html, body').animate({scrollTop: '0px'}, 300);
+                    $("input, select , textarea").parent().find("small").remove();
+                    $.each(error.responseJSON.errors,function(key,value){
+                        if (key.indexOf(".") == -1){
+                            $("input[name="+key+"] , select[name="+key+"] , textarea[name="+key+"]").closest(".form-group").removeClass("has-success").addClass("has-error");
+                            $.each(value,function(k,v){
+                                $("input[name="+key+"] , select[name="+key+"] , textarea[name="+key+"]").parent().find('small').remove();
+                                $("input[name="+key+"] , select[name="+key+"] , textarea[name="+key+"]").parent().append('<small class="help-block">'+v+'</small>');
+                            });
+                        }else{
+                            $("input[name='"+key.split('.')[0]+"[]'] , select[name='"+key.split('.')[0]+"[]'] , textarea[name='"+key.split('.')[0]+"[]']").parents("tbody").find("tr:eq("+key.split('.')[1]+")").find("input[name='"+key.split('.')[0]+"[]'] , select[name='"+key.split('.')[0]+"[]'] , textarea[name='"+key.split('.')[0]+"[]']").closest(".form-group").removeClass("has-success").addClass("has-error");
+                            $.each(value,function(k,v){
+                                $("input[name='"+key.split('.')[0]+"[]'] , select[name='"+key.split('.')[0]+"[]'] , textarea[name='"+key.split('.')[0]+"[]']").parents("tbody").find("tr:eq("+key.split('.')[1]+")").find("input[name='"+key.split('.')[0]+"[]'] , select[name='"+key.split('.')[0]+"[]'] , textarea[name='"+key.split('.')[0]+"[]']").parent().find('small').remove();
+
+                                $("input[name='"+key.split('.')[0]+"[]'] , select[name='"+key.split('.')[0]+"[]'] , textarea[name='"+key.split('.')[0]+"[]']").parents("tbody").find("tr:eq("+key.split('.')[1]+")").find("input[name='"+key.split('.')[0]+"[]'] , select[name='"+key.split('.')[0]+"[]'] , textarea[name='"+key.split('.')[0]+"[]']").parent().append('<small class="help-block">'+v+'</small>')
+                            });
+                        }
+                    });
+                    $("input, select , textarea").on("keyup change blur",function(){
+                        $(this).parent().find("small").remove();
+                    })
+                }else{
+                    noty({
+                        text     : '<div>حدث خطأ أثناء الإتصال بالخادم فضلاً قم بالإتصال بالشركة المبرمجة للمشروع ! </div>',
+                        layout   : 'topCenter',
+                        type : 'error',
+                        closeWith: ['click']
+                    });
+                }
+            },complete:function(){
+                $.unblockUI();
+            }
+        });
+        return false;
+    });          
+});
+
+function getGovernorateNameById(code){
+    if (code != ""){
+        var listOfCountries = [
+            {"id" : 14 , "name" : "القليوبيه" },
+            {"id" : 27 , "name" : "الاقصر" },
+            {"id" : 23 , "name" : "الفيوم" },
+            {"id" : 22 , "name" : "بنى سويـف" },
+            {"id" : 18 , "name" : "البحيرة" },
+            {"id" : 25 , "name" : "اسيوط" },
+            {"id" : 12 , "name" : "الدقهلية" },
+            {"id" : 13 , "name" : "الشرقية" },
+            {"id" : 21 , "name" : "الجيزة" },
+            {"id" : 01 , "name" : "القاهرة" },
+            {"id" : 02 , "name" : "الأسكندرية" },
+            {"id" : 03 , "name" : "بورسعيد" },
+            {"id" : 11 , "name" : "دمياط" },
+            {"id" : 14 , "name" : "القليوبية" },
+            {"id" : 15 , "name" : "كفر الشيخ" },
+            {"id" : 16 , "name" : "الغربية" },
+            {"id" : 17 , "name" : "المنوفية" },
+            {"id" : 19 , "name" : "الإسماعيلية"},
+            {"id" : 22 , "name" : "بنى سويف" },
+            {"id" : 23 , "name" : "الفيوم" },
+            {"id" : 24 , "name" : "المنيا" },
+            {"id" : 25 , "name" : "أسيوط" },
+            {"id" : 26 , "name" : "سوهاج" },
+            {"id" : 27 , "name" : "قنا" },
+            {"id" : 28 , "name" : "أسوان" },
+            {"id" : 29 , "name" : "الأقصر" },
+            {"id" : 32 , "name" : "الوادى الجديد" },
+            {"id" : 33 , "name" : "مطروح" },
+            {"id" : 04 , "name" : "السويس" },
+            {"id" : 34 , "name" : "شمال سيناء" },
+            {"id" : 35 , "name" : "جنوب سيناء" },
+            {"id" : 31 , "name" : "البحر الأحمر" },
+            {"id" : 88 , "name" : "المركز الرئيسى للين تم قيدهم خارج البلاد" }
+        ];
+
+        var govName = "";
+        $.each(listOfCountries , function(k,v){
+            if (v.id == code){
+                govName = v.name;
+            }
+        });
+        console.log(govName);
+        return govName;
+    }
+}
+
+function calcDate(date1,date2) {
+    var diff = (date1.getTime() - date2.getTime()).toFixed(2);
+    var day = 1000 * 60 * 60 * 24;
+
+    var days = diff/day;
+    var months = days/31;
+    var years = months/12;
+
+    // var message = date2.toDateString();
+    // message += " was "
+    // var message = Number(days).toFixed(2) + " يوم / ايام  - " 
+    // message += Number(months).toFixed(2) + " شهر  - "
+    var message = Number(years).toFixed(2) + " سنة "
+
+    if (Number(days).toFixed(2) &&  Number(months).toFixed(2) && Number(years).toFixed(2)){
+        return message
+    }else{
+        return "جاري حساب سنين الخبرة ..";
+    }
+}
+
+function HasArabicCharacters(text) {
+    var arregex = /[\u0600-\u06FF]/;
+    return arregex.test(text);
+}
+	</script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,234 @@
+/*! CSS Used from: file:///E:/job%20site/css/index.css */
+body{margin:0;}
+footer{position:relative;bottom:0;width:100%;height:200px;background:#0d0d0d;}
+.username{/* display:table-cell; *//* padding-left:33px; *//* padding-right:33px; *//* padding-top:7px; */}
+.infouser{display:block;}
+.infouserphoneadd{display:none;}
+img.headerimg{display:block;}
+img.headerimgphone{display:none;}
+.infouser{text-align:right;direction:rtl;}
+img.headerimg{width:100%;}
+a{text-decoration-line:none;}
+.textnavbarpc{display:table-cell;width:7vw;position:relative;top:11px;}
+.textnavbarpc a{color:#ffffff;}
+.textsendpage {
+    padding: 15px;
+    text-align: right;
+}
+.texttd.leftclick-one.active {
+    /* background: #a1c7e7; */
+}
+.holderinput.date {
+    width: max-content;
+    background: #cfe6fa;
+}
+input.infoinput {
+    width: 100%;
+    padding: 3px;
+    border: transparent;
+    padding-right: 20px;
+    font-size: 15px;
+    color: #000;
+}
+div#divsortphone-one {
+    /* box-shadow: 0px 0px 1px 1px #c8c7c7; */
+}
+.addvacationurl {
+    text-align: left;
+    background: green;
+    color: #fff;
+    width: max-content;
+    position: absolute;
+    left: 13px;
+}
+select#reason {
+    color: rgb(51, 51, 51);
+    background: transparent;
+    border-color: transparent;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    height: 39px;
+    font-size: 23px;
+}
+button.busub {
+    background: green;
+    color: #fff;
+    border: transparent;
+    padding: 9px;
+    width: 33%;
+    border-radius: 33px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.dropdown-menu.inner  li {
+    padding: 15px;
+}
+span.text {
+    position: relative;
+    top: 5px;
+    left: -8px;
+}
+input.dateinput {
+    background: #cfe6fa;
+    border: transparent;
+}
+.holderinput {
+    width: 100%;
+    background: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    color: #020155;
+    text-align: right;
+    box-shadow: 0 0 0px 2px #356c93;
+}
+.dropdown-menu.inner  li a {
+    color: rgb(51, 122, 183);
+    text-decoration: none;
+    width: 95%;
+    position: absolute;
+    height: 30px;
+    margin-top: -9px;
+}
+.dropdown-menu.inner li a:hover {
+    background: aliceblue;
+}
+div#navbarpc{border-bottom:ridge;background:#131414;color:#fff;height:33px;}
+.holderrightpc{background:#ffffff;/* height:500px; *//* width:231px; *//* box-shadow:0px 0px 1px 1px #c8c7c7; */border-radius:3px;/* display:table-cell; */}
+menu{direction:rtl;direction:rtl;padding:11px;min-height:33vw;}
+.holderrightpc.left{width:84%;border:transparent;}
+button{outline:none;}
+.infopage{position:relative;margin-top:20px;top:-15px;font-size:20px;background: #356c93;text-align:center;padding:5px;border-top-left-radius: 15px;border-top-right-radius: 15px;color: #fff;}
+select.pagenumber{display:none;}
+@media only screen and (max-width: 1470px){
+.textnavbarpc{display:table-cell;width:9vw;position:relative;top:11px;}
+}
+@media only screen and (max-width: 1150px){
+.textnavbarpc{display:table-cell;width:107px;position:relative;top:11px;border-radius:5px;}
+}
+@media only screen and (max-width: 900px){
+body{margin:0;min-width:900px;}
+.infopage{/* display:none; */top: -15px;}
+.holderrightpc{background: transparent;height:max-content;border-radius:3px;display:inline-block;}
+.holderrightpc.left{width:97%;margin-bottom: 11px;}
+div#navbarpc{display:none;}
+select.pagenumber{width:100%;display:block;text-align:center;direction:rtl;background:#545050;color:#fff;font-size:30px;text-indent:15px;height:89px;box-shadow:0 0 11px 1px #393a3b;}
+img.headerimg{/* display:none; */}
+.username{font-size: 13px;width: max-content;display:inline-block;}
+.infouser{/* display:none; */}
+.infouserphoneadd{display:block;direction:rtl;background:#066e51c7;color:#fff;position:relative;/* margin-top:-97px; */padding-bottom:15px;}
+menu{min-height:213vw;}
+img.headerimgphone{display:unset;width:100%;}
+}
+/*! CSS Used from: file:///E:/job%20site/css/endpage.css */
+::after,::before{box-sizing:border-box;}
+body{margin:0px;min-height:700px;position:relative;}
+body{margin:0px;}
+a{text-decoration:none;}
+input.form-control{width:130px;box-sizing:border-box;border:2px solid rgb(204, 204, 204);border-radius:4px;font-size:16px;background-color:white;background-image:url("https://www.w3schools.com/howto/searchicon.png");background-position:11px 5px;background-repeat:no-repeat;padding:12px 20px 12px 40px;transition:width 0.4s ease-in-out 0s;}
+ul.dropdown-menu.inner{max-height:200px;}
+.dropdown.bootstrap-select.form-control.bs3{width:399px;}
+.bootstrap-select .dropdown-menu{min-width:100%;box-sizing:border-box;box-shadow:rgb(27, 110, 180) 0px 0px 5px 1px;}
+ul.dropdown-menu.inner{max-height:200px;overflow:auto;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0px;}
+img{border:0px;}
+button,input,select{margin:0px;font:inherit;color:inherit;}
+button{overflow:visible;}
+button,select{text-transform:none;}
+button{-webkit-appearance:button;cursor:pointer;}
+input{line-height:normal;}
+*{box-sizing:border-box;}
+::after,::before{box-sizing:border-box;}
+button,input,select{font-family:inherit;font-size:inherit;line-height:inherit;}
+a{color:rgb(51, 122, 183);text-decoration:none;}
+a:focus,a:hover{color:rgb(35, 82, 124);text-decoration:underline;}
+a:focus{outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px;}
+img{vertical-align:middle;}
+[role="button"]{cursor:pointer;}
+ul{margin-top:0px;margin-bottom:10px;}
+.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857;color:rgb(85, 85, 85);background-color:rgb(255, 255, 255);background-image:none;border:1px solid rgb(204, 204, 204);border-radius:4px;box-shadow:rgba(0, 0, 0, 0.075) 0px 1px 1px inset;transition:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;}
+.form-control:focus{border-color:rgb(102, 175, 233);outline:0px;box-shadow:rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(102, 175, 233, 0.6) 0px 0px 8px;}
+.form-control::-webkit-input-placeholder{color:rgb(153, 153, 153);}
+.btn{display:inline-block;padding:6px 12px;margin-bottom:0px;font-size:14px;font-weight:400;line-height:1.42857;text-align:center;white-space:nowrap;vertical-align:middle;touch-action:manipulation;cursor:pointer;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px;}
+.btn:active:focus,.btn:focus{outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px;}
+.btn:focus,.btn:hover{color:rgb(51, 51, 51);text-decoration:none;}
+.btn:active{background-image:none;outline:0px;box-shadow:rgba(0, 0, 0, 0.125) 0px 3px 5px inset;}
+.btn-default{color:rgb(51, 51, 51);background-color:rgb(255, 255, 255);border-color:rgb(204, 204, 204);}
+.btn-default:focus{color:rgb(51, 51, 51);background-color:rgb(230, 230, 230);border-color:rgb(140, 140, 140);}
+.btn-default:hover{color:rgb(51, 51, 51);background-color:rgb(230, 230, 230);border-color:rgb(173, 173, 173);}
+.btn-default:active{color:rgb(51, 51, 51);background-color:rgb(230, 230, 230);border-color:rgb(173, 173, 173);}
+.btn-default:active:focus,.btn-default:active:hover{color:rgb(51, 51, 51);background-color:rgb(212, 212, 212);border-color:rgb(140, 140, 140);}
+.btn-default:active{background-image:none;}
+.caret{display:inline-block;width:0px;height:0px;margin-left:2px;vertical-align:middle;border-top:4px dashed;border-right:4px solid transparent;border-left:4px solid transparent;}
+.dropdown{position:relative;}
+.dropdown-toggle:focus{outline:0px;}
+.dropdown-menu{position:absolute;top:100%;left:0px;z-index:1000;display:none;float:left;min-width:160px;padding:5px 0px;margin:2px 0px 0px;font-size:14px;text-align:left;list-style:none;background-color:rgb(255, 255, 255);background-clip:padding-box;border:1px solid rgba(0, 0, 0, 0.15);border-radius:4px;box-shadow:rgba(0, 0, 0, 0.176) 0px 6px 12px;}
+.open > .dropdown-menu{display:block;}
+.btn .caret{margin-left:0px;}
+select.selectpicker{display:none!important;}
+.bootstrap-select{vertical-align:middle;}
+.bootstrap-select > .dropdown-toggle{position:relative;width:100%;text-align:right;white-space:nowrap;display:inline-flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:justify;justify-content:space-between;}
+.bootstrap-select > .dropdown-toggle::after{margin-top:-1px;}
+.bootstrap-select > .dropdown-toggle.bs-placeholder,.bootstrap-select > .dropdown-toggle.bs-placeholder:hover,.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,.bootstrap-select > .dropdown-toggle.bs-placeholder:active{color:rgb(153, 153, 153);/* background: #cfe6fa; */box-shadow: 0 0 0px 2px #356c93;}
+.bootstrap-select > select{bottom:0px;left:50%;border:none;position:absolute!important;display:block!important;width:0.5px!important;height:100%!important;padding:0px!important;opacity:0!important;z-index:0!important;}
+.bootstrap-select .dropdown-toggle:focus{outline-offset:-2px;outline:-webkit-focus-ring-color auto 5px!important;}
+.bootstrap-select.form-control{margin-bottom:0px;padding:0px;border:none;}
+:not(.input-group) > .bootstrap-select.form-control:not([class*="col-"]){width:100%;}
+.bootstrap-select:not(.input-group-btn){float:none;display:inline-block;margin-left:0px;}
+.bootstrap-select .dropdown-toggle .filter-option{position:static;top:0px;right: 0px;height:100%;width:100%;text-align: right;overflow:hidden;-webkit-box-flex:0;flex:0 1 auto;}
+.bs3.bootstrap-select .dropdown-toggle .filter-option{padding-right:inherit;}
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner{overflow:hidden;color:#000;}
+.bootstrap-select .dropdown-toggle .caret{position:absolute;top:50%;left: 12px;margin-top:-2px;vertical-align:middle;}
+.bootstrap-select .dropdown-menu{min-width:100%;box-sizing:border-box;}
+.bootstrap-select .dropdown-menu > .inner:focus{outline:none!important;}
+.bootstrap-select .dropdown-menu.inner{position:static;float:none;border:0px;padding:0px;margin:0px;border-radius:0px;box-shadow:none;text-align: right;padding-right: 15px;}
+.bs-searchbox{padding:4px 8px;}
+.bs-searchbox .form-control{margin-bottom:0px;width:100%;float:none;}
+
+@media only screen and (max-width: 900px){
+.textsendpage {
+    padding-bottom: unset;
+    text-align: right;
+    margin: unset;
+    padding: 5px;
+    background: transparent;
+    /* height: 89px; */
+}
+.holderinput {
+    width: 100%;
+    padding: 3px;
+    box-shadow: 0 0 0px 2px #356c93;
+}
+input.infoinput {
+    padding-right: 15px;
+    font-size: 23px;
+    border-radius: 3px;
+    border: transparent;
+    border-color: rgb(204, 204, 204);
+    width: 100%;
+    padding: 11px;
+}
+.holderinput.reso {
+    width: 100%;
+}
+div#divsortphone-one {
+    box-shadow: 0px 0px 1px 1px #c8c7c7;
+}
+.dropdown-menu.inner li a {
+    font-size: 23px;
+    position: relative;
+}
+.caret{display:inline-block;width:0;height:0;margin-left:2px;vertical-align:middle;border-top:7px dashed;border-top:7px solid\9;border-right:7px solid transparent;border-left:7px solid transparent;}
+input.form-control{font-size:16px;background-size:39px;background-position:11px 9px;padding:14px 23px 11px 59px;}
+ul.dropdown-menu.inner{max-height:590px;overflow:auto;}
+input.form-control{height:59px;font-size:30px;}
+button.btn.dropdown-toggle.btn-default{height:70px;font-size:30px;box-shadow: 0 0 0px 2px #356c93;}
+.dropdown.bootstrap-select.form-control.bs3{width:100%;height:100%;position:relative;background: transparent;}
+.dropdown-menu.open{position:absolute;top:72px;width:100%;}
+button.btn.dropdown-toggle.btn-default.bs-placeholder{height:70px;font-size: 23px;background: transparent;}
+.dropdown{position:absolute;width:100%;top:0;}
+.dropdown{display:none;}
+}
+/*! CSS Used from: Embedded */
+.textnavbarpc.c{background:green;border-radius:8px;}

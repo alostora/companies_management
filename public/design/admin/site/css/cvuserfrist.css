@@ -1,0 +1,48 @@
+.textnavbarpc.f {
+    background: green;
+    border-radius: 8px;
+}
+
+
+table.tablwcvusersinside {
+    background: aliceblue;
+    width: 99%;
+    box-shadow: inset 0 0 2px black;
+}
+table.tablwcvusersinside td {
+
+border-bottom: 11px solid #fff;
+}
+td.leftcvusers {
+    background: #fff;
+    text-align: center;
+    padding: 9px;
+    box-shadow: inset 0px 0px 2px black;
+    min-width: 125px;
+}
+td.rightcvusers {
+    text-align: center;
+    padding: 9px;
+    box-shadow: inset 0 0 2px #a19b9b;
+    min-width: 70px;
+}
+
+.infouser {
+    text-align: center;
+    font-size: 25px;
+}
+
+.infopageusercv {
+    position: relative;
+    margin-top: 20px;
+    font-size: 20px;
+    background: #88bce1;
+    text-align: right;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.infopageusercv:hover {
+    background: #99c9eb;
+    color: #fff;
+}

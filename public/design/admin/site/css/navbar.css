@@ -1,0 +1,124 @@
+/*! CSS Used from: file:///E:/job%20site/css/index.css */
+body{margin:0;}
+footer{position:relative;bottom:0;width:100%;height:200px;background:#0d0d0d;}
+menu{direction:rtl;direction:rtl;padding:11px;min-height:33vw;}
+@media only screen and (max-width: 900px){
+body{margin:0;min-width:900px;}
+menu{min-height:213vw;}
+}
+.ultext li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    border-radius: 11px 0px 0px 11px;
+    cursor: pointer;
+}
+.dropdownbbmkb {display:none};
+.ultext li:hover {
+    background: #d7f7fa;
+}
+ul {
+  list-style: none;
+}
+
+table.userinfortitle {
+    width: 85%;
+    color: #fff;
+    text-align: center;
+}
+
+ul .lidot::before {
+  content: "\2022";
+  color: #4192d7;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: relative;
+  left: 25px;
+}
+
+.ultext li::before {
+  content: "\2022";
+  color: #4192d7;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: relative;
+  left: 25px;
+}
+li.leftclick-one.active {
+    background: #a1c7e7;
+    color: #fff;
+}
+i.fa.fa-angle-left.drop {
+    transform: rotate(-90deg);
+    transition: all ease-in-out 0.2s;
+}
+.active i.fa.fa-angle-left.drop {
+    transform: rotate(90deg);
+    transition: all ease-in-out 0.2s;
+}	
+i.fa.fa-chevron-circle-down {
+    transform: rotate(0deg);
+    transition: all ease-in-out 0.2s;
+}
+.active i.fa.fa-chevron-circle-down {
+    transform: rotate(-180deg);
+    transition: all ease-in-out 0.2s;
+}
+div#holdersite {
+    box-shadow: 0 0 2px 0px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+}
+img.iconesv {
+    width: 22px;
+}
+img.serviceicone {
+    width: 11px;
+    position: relative;
+    top: -3px;
+}
+/*! CSS Used from: file:///E:/job%20site/css/navbar.css */
+body{margin:0;}
+footer{position:relative;bottom:0;width:100%;height:200px;background:#0d0d0d;}
+menu{direction:rtl;direction:rtl;padding:11px;min-height:33vw;}
+
+@media only screen and (max-width: 1150px){
+body{margin:0;min-width: 1200px;}
+.username {
+    width: 45%;
+    font-size: 13px;
+}
+menu{min-height:213vw;}
+}
+
+
+@media only screen and (max-width: 900px){
+body{margin:0;min-width: 1200px;}
+.username {
+    width: 45%;
+    font-size: 13px;
+}
+menu{min-height:213vw;}
+}
+body{margin:0;min-width: 1000px;/* direction: rtl; */}
+footer{position:relative;bottom:0;width:100%;height:200px;background: #ffffff;}
+.username{width: 45%;display:table-cell;padding-left: 0;padding-right: 0;padding-top: 0;position: relative;left: 0;}
+.infouser{display:block;}
+.infouserphone{display:none;}
+img.headerimg{display:block;}
+img.headerimgphone{display:none;}
+.infouser{text-align:right;direction:rtl;background: #4192d7;color: #fff;box-shadow: 0px 0px 6px 0px #000000;position: relative;right: 0;height: max-content;padding: 11px;}
+img.headerimg{width:100%;}
+a{text-decoration-line:none;}
+.textnavbarpc{display:table-cell;width: 15%;position:relative;top:11px;}
+.textnavbarpc a{color:#ffffff;}
+div#navbarpc{border-bottom:ridge;background:#131414;color:#fff;height:33px;}
+menu{direction:rtl;direction:rtl;/* padding-top: 0px; *//* min-height:33vw; */}
+select.pagenumber{display:none;}
+
+
